@@ -377,4 +377,4 @@ if __name__ == '__main__':
                 )
                 '''
                 print("Epoch {:04d} | Time {:.3f} ({:.3f}) | NFE-F {:.1f} | NFE-B {:.1f}".format(itr // batches_per_epoch, batch_time_meter.val, batch_time_meter.avg, f_nfe_meter.avg,
-                        b_nfe_meter.avg)
+                        b_nfe_meter.avg))
